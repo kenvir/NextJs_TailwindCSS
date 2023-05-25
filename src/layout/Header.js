@@ -13,10 +13,10 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full bg-black">
       <div className="flex max-w-full h-16 border-b-[1px]">
         <div className="flex items-center justify-end w-full h-full pr-40">
-          <div className="flex items-center justify-evenly w-1/6">
+          <div className="flex items-center justify-evenly w-1/6 text-white">
             <FaFacebook className="cursor-pointer text-[22px]" />
             <FaInstagram className="cursor-pointer text-[22px]" />
             <FaPinterest className="cursor-pointer text-[22px]" />
@@ -25,17 +25,23 @@ function Header() {
           <span className="text-[16px] font-semibold cursor-pointer">FAQ</span>
         </div>
       </div>
-      <div className="flex items-center justify-between w-[1320px] h-16 mx-auto">
+      <div className="flex items-center justify-between max-w-[1320px] w-full h-16 mx-auto">
         <div className="">
-          <Image src={logo} alt={"logo"} width={110} height={50} priority />
+          <Image
+            src="https://dev.hyperaschain.com/img/logo.png"
+            alt={"logo"}
+            width={200}
+            height={100}
+            priority
+          />
         </div>
-        <div className="flex items-center">
-          <ul className="flex">
-            <li className="group p-3 font-bold text-[16px] cursor-pointer mr-1">
+        <div className="flex items-center h-full">
+          <ul className="flex items-center text-white h-full">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
               <span className="flex items-center">
                 Technology <TiArrowSortedDown />
               </span>
-              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default">
+              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="m-2">
                   <Link
                     href="/"
@@ -70,11 +76,11 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="group p-3 font-bold text-[16px] cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
               <span className="flex items-center">
                 Ecosystem <TiArrowSortedDown />
               </span>
-              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default">
+              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="p-2">
                   <Link
                     href="/"
@@ -125,11 +131,11 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="group p-3 font-bold text-[16px] cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
               <span className="flex items-center">
                 External Environment <TiArrowSortedDown />
               </span>
-              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default">
+              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="p-2">
                   <Link
                     href="/"
@@ -156,11 +162,11 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="group p-3 font-bold text-[16px] cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
               <span className="flex items-center">
                 Resources <TiArrowSortedDown />
               </span>
-              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default">
+              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="p-2">
                   <Link
                     href="/"
@@ -195,11 +201,11 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="group p-3 font-bold text-[16px] cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
               <span className="flex items-center">
                 Company <TiArrowSortedDown />
               </span>
-              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default">
+              <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="p-2">
                   <Link
                     href="/"
@@ -238,7 +244,7 @@ function Header() {
         </div>
         <div className="flex">
           <div className="flex items-center">
-            <button className="font-semibold p-3 bg-[#EC008C] hover:shadow-[0_2px_20px_0_rgba(0,0,0,0.3)] hover:shadow-[#EC008C] rounded-md duration-150">
+            <button className="text-white font-semibold p-3 bg-[#EC008C] hover:shadow-[0_2px_20px_0_rgba(0,0,0,0.3)] hover:shadow-[#EC008C] rounded-md duration-150">
               Buy Hyra
             </button>
           </div>

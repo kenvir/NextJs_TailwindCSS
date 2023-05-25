@@ -16,11 +16,17 @@ function Footer() {
   return (
     <footer className="flex-col w-full">
       <div className="max-w-full h-16 bg-[#EC008C]">
-        <div className="flex items-center justify-between w-[1320px] h-full mx-auto">
+        <div className="flex items-center justify-between max-w-[1320px] w-full h-full mx-auto">
           <div>
-            <Image src={logo} alt={"logo"} width={110} height={50} priority />
+            <Image
+              src="https://dev.hyperaschain.com/img/logoFooter.png"
+              alt={"logo"}
+              width={200}
+              height={100}
+              priority
+            />
           </div>
-          <div className="flex items-center justify-evenly w-1/4">
+          <div className="flex items-center justify-evenly w-1/4 text-white">
             <FaFacebook className="cursor-pointer text-[24px]" />
             <FaInstagram className="cursor-pointer text-[24px]" />
             <FaPinterest className="cursor-pointer text-[24px]" />
@@ -30,8 +36,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-full bg-[#d4007e]">
-        <div className="flex justify-between w-[1320px] mx-auto pt-[50px]">
+      <div className="max-w-full bg-[#d4007e] text-white">
+        <div className="flex justify-between max-w-[1320px] w-full mx-auto pt-[50px]">
           <div className="w-1/3">
             <div>
               <h2 className="font-semibold mb-2 text-[20px]">

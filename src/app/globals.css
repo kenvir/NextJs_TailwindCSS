@@ -17,11 +17,67 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.banner {
+  background: #172a33
+    url("https://dev.hyperaschain.com/img/banner-overview.jpg") no-repeat center
+    bottom / cover;
+  text-align: center;
+  padding: 100px 0 240px;
+  position: relative;
+}
+
+.sectionHeading {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(89.08deg, #ff0097 22.35%, #00d3ff 83.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.content {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: calc(var(--bs-gutter-y) * -1); */
+  /* margin-right: calc(var(--bs-gutter-x) * -0.5); */
+  /* margin-left: calc(var(--bs-gutter-x) * -0.5); */
+}
+
+.content-item {
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 40px);
+  height: 100%;
+  background: url(https://dev.hyperaschain.com/img/bg-item-overview.png)
+    no-repeat left top / contain;
+}
+
+.item-1::before {
+  left: 0;
+  top: 0;
+}
+
+.item-2::before {
+  right: 0;
+  top: 0;
+  transform: scaleX(-1);
 }
