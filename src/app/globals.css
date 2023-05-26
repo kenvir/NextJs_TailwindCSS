@@ -81,3 +81,41 @@ body {
   top: 0;
   transform: scaleX(-1);
 }
+
+.bgGalaxy {
+  background: url(https://dev.hyperaschain.com/img/bg-galaxy.jpg) no-repeat
+    center center / cover;
+}
+
+.boxIframe {
+  margin-top: -160px;
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff0097,
+    #d567e5,
+    #879aff,
+    #0bbcff,
+    #00d3ff
+  );
+}
+
+.videoManager {
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.text {
+  background: -webkit-linear-gradient(
+    #ff0097,
+    #d567e5,
+    #879aff,
+    #0bbcff,
+    #00d3ff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
