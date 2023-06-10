@@ -30,8 +30,10 @@ function Header() {
           <Image
             src="https://dev.hyperaschain.com/img/logo.png"
             alt={"logo"}
-            width={200}
-            height={100}
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="w-full h-auto"
             priority
           />
         </div>
@@ -44,7 +46,7 @@ function Header() {
               <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="m-2">
                   <Link
-                    href="/"
+                    href="/OverView"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Overview
@@ -52,7 +54,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/Stake"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Stake

@@ -1,4 +1,6 @@
 // These styles apply to every route in the application
+import Footer from "../layout/Footer";
+import Header from "../layout/Header";
 import "./globals.css";
 
 export const metadata = {
@@ -8,8 +10,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
   );
 }

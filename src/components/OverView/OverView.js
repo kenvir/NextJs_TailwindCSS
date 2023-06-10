@@ -19,8 +19,10 @@ function OverView() {
                   <Image
                     src="https://dev.hyperaschain.com/img/logoHyraScan.png"
                     alt=""
-                    width={130}
-                    height={55}
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="w-[130px] h-auto"
                   />
                 </div>
                 <div className="text-[17px] text-[#58595B]">
@@ -36,8 +38,10 @@ function OverView() {
                   <Image
                     src="https://dev.hyperaschain.com/img/logoHyraScan.png"
                     alt=""
-                    width={130}
-                    height={55}
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="w-[130px] h-auto"
                   />
                 </div>
                 <div className="text-[17px] text-[#58595B]">
@@ -51,9 +55,10 @@ function OverView() {
           <Image
             src="	https://dev.hyperaschain.com/img/icon-hyperas.png"
             alt=""
-            width={130}
-            height={55}
-            className="mx-auto my-[-80px] w-[200px]"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="mx-auto my-[-80px] w-[200px] h-auto"
           />
           <div className="content flex mt-[80px]">
             <div className="content-item max-w-full w-1/2">
@@ -62,8 +67,10 @@ function OverView() {
                   <Image
                     src="https://dev.hyperaschain.com/img/logoHyraScan.png"
                     alt=""
-                    width={130}
-                    height={55}
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="w-[130px] h-auto"
                   />
                 </div>
                 <div className="text-[17px] text-[#58595B]">
@@ -79,8 +86,10 @@ function OverView() {
                   <Image
                     src="https://dev.hyperaschain.com/img/logoHyraScan.png"
                     alt=""
-                    width={130}
-                    height={55}
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="w-[130px] h-auto"
                   />
                 </div>
                 <div className="text-[17px] text-[#58595B]">

@@ -21,8 +21,10 @@ function Footer() {
             <Image
               src="https://dev.hyperaschain.com/img/logoFooter.png"
               alt={"logo"}
-              width={200}
-              height={100}
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-full h-auto"
               priority
             />
           </div>

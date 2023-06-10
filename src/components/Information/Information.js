@@ -12,9 +12,8 @@ function Information() {
                 height="315"
                 src="https://www.youtube.com/embed/Hi5P5wN2kqs"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen=""
+                allowFullScreen=""
                 className="absolute top-0 left-0 w-full h-full"
               ></iframe>
             </div>
@@ -30,8 +29,11 @@ function Information() {
                 <Image
                   src="https://dev.hyperaschain.com/img/icon-4.png"
                   alt=""
-                  width={55}
-                  height={55}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
               <h5 className="my-4 font-semibold text-[1.25rem]">Fast</h5>
@@ -45,8 +47,11 @@ function Information() {
                 <Image
                   src="https://dev.hyperaschain.com/img/icon-4.png"
                   alt=""
-                  width={55}
-                  height={55}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
               <h5 className="my-4 font-semibold text-[1.25rem]">
@@ -62,8 +67,11 @@ function Information() {
                 <Image
                   src="https://dev.hyperaschain.com/img/icon-4.png"
                   alt=""
-                  width={55}
-                  height={55}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
               <h5 className="my-4 font-semibold text-[1.25rem]">
@@ -76,8 +84,11 @@ function Information() {
                 <Image
                   src="https://dev.hyperaschain.com/img/icon-4.png"
                   alt=""
-                  width={55}
-                  height={55}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto"
+                  priority
                 />
               </div>
               <h5 className="my-4 font-semibold text-[1.25rem]">Superity</h5>
@@ -87,7 +98,166 @@ function Information() {
             </div>
           </div>
         </section>
-        <section></section>
+        <section className="py-50px]">
+          <div className="text-center">
+            <h2 className="text">Road Map</h2>
+          </div>
+          <div className="mt-[200px] mb-[50px]">
+            <div className="flex flex-wrap">
+              <div className="roadmap relative w-2/12">
+                <h4 className="text-[22px] text-center mb-[-30px] font-semibold text-white">
+                  Q4. 2021
+                </h4>
+                <div className="img relative">
+                  <span className="line"></span>
+                  <Image
+                    src="https://dev.hyperaschain.com/img/icon-roadmap-pink.png"
+                    alt=""
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="block w-full h-auto mt-0 mb-[30px] mx-auto relative z-1"
+                    priority
+                  />
+                </div>
+                <ul className="pr-[10px] ml-[15px] text-[14px] text-white list-disc">
+                  <li className="mb-[8px]">
+                    Complete the legal records of Metaway Holdings member
+                    companies
+                  </li>
+                  <li className="mb-[8px]">
+                    Coduct mergers and acquisions (M&A) among member companies
+                  </li>
+                  <li>
+                    Development of distinct Blockchain platform and products in
+                    the ecosystem
+                  </li>
+                </ul>
+              </div>
+              <div className="roadmap relative w-2/12">
+                <h4 className="text-[22px] text-center mb-[-30px] font-semibold text-white">
+                  Q4. 2021
+                </h4>
+                <div className="img relative">
+                  <span className="line"></span>
+                  <Image
+                    src="https://dev.hyperaschain.com/img/icon-roadmap-pink.png"
+                    alt=""
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="block w-full h-auto mt-0 mb-[30px] mx-auto relative z-1"
+                    priority
+                  />
+                </div>
+                <ul className="pr-[10px] ml-[15px] text-[14px] text-white list-disc">
+                  <li className="mb-[8px]">
+                    R60 realated to Hyperas Chain (testnest)
+                  </li>
+                  <li className="mb-[8px]">Launch of Hyperas Scan (V1)</li>
+                  <li>Launch of testing version of Pindias Website (V1)</li>
+                </ul>
+              </div>
+              <div className="roadmap relative w-2/12">
+                <h4 className="text-[22px] text-center mb-[-30px] font-semibold text-white">
+                  Q4. 2021
+                </h4>
+                <div className="img relative">
+                  <span className="line"></span>
+                  <Image
+                    src="https://dev.hyperaschain.com/img/icon-roadmap-pink.png"
+                    alt=""
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="block w-full h-auto mt-0 mb-[30px] mx-auto relative z-1"
+                    priority
+                  />
+                </div>
+                <ul className="pr-[10px] ml-[15px] text-[14px] text-white list-disc">
+                  <li className="mb-[8px]">Launch of Hyperas Chain (Mainet)</li>
+                  <li className="mb-[8px]">Launch of Hyperas Wallet</li>
+                  <li className="mb-[8px]">Launch of Hyperas NFT</li>
+                  <li>Launch of official version Pindias (V2)</li>
+                </ul>
+              </div>
+              <div className="roadmap relative w-2/12">
+                <h4 className="text-[22px] text-center mb-[-30px] font-semibold text-white">
+                  Q4. 2021
+                </h4>
+                <div className="img relative">
+                  <span className="line"></span>
+                  <Image
+                    src="https://dev.hyperaschain.com/img/icon-roadmap-blue.png"
+                    alt=""
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="block w-full h-auto mt-0 mb-[30px] mx-auto relative z-1"
+                    priority
+                  />
+                </div>
+                <ul className="pr-[10px] ml-[15px] text-[14px] text-white list-disc">
+                  <li className="mb-[8px]">
+                    Launch of Divega reverse aution e-commerce platform (V2)
+                  </li>
+                  <li>Launch of Pindias app for Android & IOS (V2)</li>
+                </ul>
+              </div>
+              <div className="roadmap relative w-2/12">
+                <h4 className="text-[22px] text-center mb-[-30px] font-semibold text-white">
+                  Q4. 2021
+                </h4>
+                <div className="img relative">
+                  <span className="line"></span>
+                  <Image
+                    src="https://dev.hyperaschain.com/img/icon-roadmap-blue.png"
+                    alt=""
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="block w-full h-auto mt-0 mb-[30px] mx-auto relative z-1"
+                    priority
+                  />
+                </div>
+                <ul className="pr-[10px] ml-[15px] text-[14px] text-white list-disc">
+                  <li className="mb-[8px]">
+                    Support of digitization of assets on Hyperas NFT
+                  </li>
+                  <li>
+                    Support for trading and fundrasing via NFT Hyperas Dex
+                    Market
+                  </li>
+                </ul>
+              </div>
+              <div className="roadmap relative w-2/12">
+                <h4 className="text-[22px] text-center mb-[-30px] font-semibold text-white">
+                  Q4. 2021
+                </h4>
+                <div className="img relative">
+                  <Image
+                    src="https://dev.hyperaschain.com/img/icon-roadmap-blue.png"
+                    alt=""
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    className="block w-full h-auto mt-0 mb-[30px] mx-auto relative z-1"
+                    priority
+                  />
+                </div>
+                <ul className="pr-[10px] ml-[15px] text-[14px] text-white list-disc">
+                  <li className="mb-[8px]">
+                    Support of digitization of assets on Hyperas NFT
+                  </li>
+                  <li>
+                    Support for trading and fundrasing via NFT Hyperas Dex
+                    Market
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
