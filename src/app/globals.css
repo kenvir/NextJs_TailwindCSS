@@ -2,6 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,6 +18,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -26,6 +32,18 @@ body {
     rgb(var(--background-start-rgb)); */
   color: white;
 }
+
+/* Home */
+
+.bannerHome {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+  background: url(https://dev.hyperaschain.com/img/hyperasChain.jpg) no-repeat
+    center center / cover;
+}
+
+/* OverView */
 
 .banner {
   background: #172a33
@@ -38,12 +56,10 @@ body {
 
 .sectionHeading {
   display: inline-block;
-  font-size: 32px;
   font-weight: 700;
   background: linear-gradient(89.08deg, #ff0097 22.35%, #00d3ff 83.51%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 100px;
   position: relative;
 }
 
@@ -165,9 +181,9 @@ body {
   transform: translateX(-50%); */
 }
 
-/* .active {
+.list {
   color: #ec008c;
-} */
+}
 
 .stake-check {
   width: 50px;
@@ -215,7 +231,6 @@ body {
 .cell-1,
 .cell-2,
 .cell-3,
-.cell-4,
-.cell-5 {
+.cell-4 {
   flex: 1 0 0;
 }

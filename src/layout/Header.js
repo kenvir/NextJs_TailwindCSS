@@ -26,17 +26,17 @@ function Header() {
         </div>
       </div>
       <div className="flex items-center justify-between max-w-[1320px] w-full h-16 mx-auto">
-        <div className="">
+        <a href="/" className="">
           <Image
             src="https://dev.hyperaschain.com/img/logo.png"
             alt={"logo"}
             width="0"
             height="0"
             sizes="100vw"
-            className="w-full h-auto"
+            className="w-full h-auto cursor-pointer"
             priority
           />
-        </div>
+        </a>
         <div className="flex items-center h-full">
           <ul className="flex items-center text-white h-full">
             <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Image from "next/image";
-import { FaList, FaGrip } from "react-icons/fa";
-import { IoIosArrowDown } from "react-icons/io";
+import { FaList } from "react-icons/fa";
+// import { FaGrip } from "react-icons/fa";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 function Stake() {
   const [activeStatus, setActiveStatus] = useState(false);
@@ -31,7 +32,7 @@ function Stake() {
                 <div className="flex mb-md-0 mb-3">
                   <div className="flex items-center mr-12">
                     {/* <FaGrip /> */}
-                    <FaList className="text-[24px] text-[#107072] cursor-pointer" />
+                    <FaList className="list text-[24px] text-[#107072] cursor-pointer" />
                   </div>
                   <div className="flex items-center p-0 mr-12 mb-0 min-h-[1.5rem]">
                     <input
@@ -252,6 +253,12 @@ function Stake() {
                 </div>
               </div>
             </div>
+          </div>
+          <div class="text-center mt-5 pb-10">
+            <a href="#" class="goTop flex justify-center cursor-pointer">
+              <p className="text-[#01FFF0]">TO TOP</p>
+              <IoIosArrowUp className="text-[#01FFF0] text-[28px] cursor-pointer" />
+            </a>
           </div>
         </section>
       </div>

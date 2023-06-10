@@ -1,7 +1,7 @@
 import Image from "next/image";
-import "./OverView.module.scss";
+import "./Banner.module.scss";
 
-function OverView() {
+function Banner() {
   return (
     <div>
       <section className="banner">
@@ -10,7 +10,7 @@ function OverView() {
       <section className="mt-[-100px] pt-[50px] pb-[250px]">
         <div className="max-w-[1320px] w-full mx-auto">
           <div className="text-center">
-            <h2 className="sectionHeading">Ecosystem</h2>
+            <h2 className="sectionHeading text-[32px] mb-[100px]">Ecosystem</h2>
           </div>
           <div className="content flex">
             <div className="content-item max-w-full w-1/2">
@@ -106,4 +106,4 @@ function OverView() {
   );
 }
 
-export default OverView;
+export default Banner;
