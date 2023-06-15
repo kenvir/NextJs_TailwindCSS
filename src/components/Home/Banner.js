@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import "./Home.module.scss";
 
 function Banner() {
@@ -33,17 +35,27 @@ function Banner() {
                 <span className="underline decoration-solid font-medium mr-4">
                   Audited by
                 </span>{" "}
-                <img
+                <Image
                   src="https://dev.hyperaschain.com/img/certiklogo.png"
+                  alt={"logo"}
                   width="80"
+                  height="0"
+                  sizes="100vw"
+                  className="cursor-pointer"
+                  priority
                 />
               </a>
             </div>
           </div>
           <div className="col-md text-center">
-            <img
+            <Image
               src="https://dev.hyperaschain.com/img/bannerRight.png"
-              alt=""
+              alt={"logo"}
+              width="0"
+              height="0"
+              sizes="10vw"
+              className="w-full h-auto cursor-pointer"
+              priority
             />
           </div>
         </div>

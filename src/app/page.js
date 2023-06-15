@@ -1,9 +1,9 @@
-import Banner from "../components/Home/Banner.js";
+import Home from "../pages/Home.js";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className="flex flex-col">
-      <Banner />
+      <Home />
     </main>
   );
 }

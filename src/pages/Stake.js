@@ -254,8 +254,8 @@ function Stake() {
               </div>
             </div>
           </div>
-          <div class="text-center mt-5 pb-10">
-            <a href="#" class="goTop flex justify-center cursor-pointer">
+          <div className="text-center mt-5 pb-10">
+            <a href="#" className="goTop flex justify-center cursor-pointer">
               <p className="text-[#01FFF0]">TO TOP</p>
               <IoIosArrowUp className="text-[#01FFF0] text-[28px] cursor-pointer" />
             </a>

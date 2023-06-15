@@ -2,8 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -233,4 +231,65 @@ body {
 .cell-3,
 .cell-4 {
   flex: 1 0 0;
+}
+
+/* Introduction */
+
+.intro {
+  background: #1b2a32 url(https://dev.hyperaschain.com/img/grid.png) no-repeat
+    center top / contain;
+}
+
+div[class*="circleBlur"] {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #01f0ff;
+}
+
+.circleBlur-1 {
+  top: -250px;
+  right: 0;
+  filter: blur(190px);
+}
+
+.circleBlur-2 {
+  left: -250px;
+  bottom: -250px;
+  filter: blur(514px);
+}
+
+.readmore {
+  position: relative;
+  display: inline-block;
+  padding: 15px 40px;
+  color: #ec008c;
+  border-radius: 6px;
+}
+
+.readmore::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  padding: 2px;
+  background: linear-gradient(to right, #ff0097, #00d3ff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.readmore:hover {
+  color: #fff;
+  border-radius: 6px;
+  background: linear-gradient(89.08deg, #de0284 6.21%, #00a4c6 83.51%);
+  transition: all 0.3s ease-in-out;
+}
+
+.roundPink {
+  background: #c40075db;
+  border-radius: 50%;
+  padding: 14px;
+  display: inline-block;
+  border: 1px solid #fc5cd9;
+  box-shadow: 0px 4px 13px #ec008c;
 }
