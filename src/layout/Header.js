@@ -171,7 +171,7 @@ function Header() {
               <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/BrandKit"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Brand Kit
