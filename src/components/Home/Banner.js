@@ -38,10 +38,10 @@ function Banner() {
                 <Image
                   src="https://dev.hyperaschain.com/img/certiklogo.png"
                   alt={"logo"}
-                  width="80"
+                  width="0"
                   height="0"
                   sizes="100vw"
-                  className="cursor-pointer"
+                  className="max-w-[80px] w-full h-auto cursor-pointer"
                   priority
                 />
               </a>
