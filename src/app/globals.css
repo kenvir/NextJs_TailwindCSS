@@ -403,12 +403,12 @@ td:last-child a + a {
     no-repeat center top / cover;
 }
 
-.validator .circleBlur-1 {
+/* .validator .circleBlur-1 {
   position: absolute;
   bottom: -530px;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 
 .numberWrap {
   background: linear-gradient(to right, #ff0097, #00d3ff);
