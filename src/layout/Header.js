@@ -195,7 +195,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/Validator"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Become Validator
