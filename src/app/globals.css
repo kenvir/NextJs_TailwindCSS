@@ -329,3 +329,68 @@ td a {
 td:last-child a + a {
   margin-left: 20px;
 }
+
+/* GuildLine */
+
+.steps:not(:last-child) .step::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: #01fff0;
+  position: absolute;
+  right: -25%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bgGrad {
+  background: linear-gradient(to right, #ff0097, #00d3ff);
+}
+
+.inner {
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+  background: url(https://dev.hyperaschain.com/img/bg-contact-form.jpg)
+    no-repeat center left / cover;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.btnGrad {
+  background: linear-gradient(89.08deg, #de0284 6.21%, #00a4c6 83.51%);
+  box-shadow: 5px 5px 13px rgba(85, 198, 208, 0.5);
+  border-radius: 6px;
+  border: none;
+  position: relative;
+}
+
+.btnGrad::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -2px;
+  border-radius: inherit;
+  background: linear-gradient(89.08deg, #ff0097 22.35%, #00d3ff 83.51%);
+}

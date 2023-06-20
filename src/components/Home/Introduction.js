@@ -34,7 +34,7 @@ function Introduction() {
                     width="71"
                     height="71"
                     sizes="100vw"
-                    className="w-full h-full cursor-pointer"
+                    className="w-full h-auto cursor-pointer"
                     priority
                   />
                 </div>
@@ -55,7 +55,7 @@ function Introduction() {
                     width="71"
                     height="71"
                     sizes="100vw"
-                    className="w-full h-full cursor-pointer"
+                    className="w-full h-auto cursor-pointer"
                     priority
                   />
                 </div>
@@ -76,7 +76,7 @@ function Introduction() {
                     width="71"
                     height="71"
                     sizes="100vw"
-                    className="w-full h-full cursor-pointer"
+                    className="w-full h-auto cursor-pointer"
                     priority
                   />
                 </div>
@@ -100,7 +100,7 @@ function Introduction() {
                     width="71"
                     height="71"
                     sizes="100vw"
-                    className="w-full h-full cursor-pointer"
+                    className="w-full h-auto cursor-pointer"
                     priority
                   />
                 </div>

@@ -13,7 +13,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="flex flex-col w-full bg-black">
+    <header className="flex flex-col w-full bg-black">
       <div className="flex max-w-full h-16 border-b-[1px]">
         <div className="flex items-center justify-end w-full h-full pr-40">
           <div className="flex items-center justify-evenly w-1/6 text-white">
@@ -37,7 +37,7 @@ function Header() {
             priority
           />
         </a>
-        <div className="flex items-center h-full">
+        <nav className="flex items-center h-full">
           <ul className="flex items-center text-white h-full">
             <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
               <span className="flex items-center">
@@ -187,10 +187,10 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/GuildLine"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
-                    Guildeline
+                    Guildline
                   </Link>
                 </li>
                 <li className="p-2">
@@ -243,7 +243,7 @@ function Header() {
               </ul>
             </li>
           </ul>
-        </div>
+        </nav>
         <div className="flex">
           <div className="flex items-center">
             <button className="text-white font-semibold p-3 bg-[#EC008C] hover:shadow-[0_2px_20px_0_rgba(0,0,0,0.3)] hover:shadow-[#EC008C] rounded-md duration-150">
@@ -252,7 +252,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
