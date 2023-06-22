@@ -449,3 +449,39 @@ td:last-child a + a {
   mix-blend-mode: luminosity;
   filter: drop-shadow(0px 4px 136px #106a76);
 }
+
+.community {
+  position: relative;
+  background: url(https://dev.hyperaschain.com/img/bg-community.png) no-repeat
+    center top / cover;
+}
+
+.table tr::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.table tr th {
+  text-align: center;
+}
+
+.table tr td {
+  text-align: center;
+  border-color: rgba(196, 196, 196, 0.5);
+  padding: 15px 30px;
+}
+
+[title~="Online"] {
+  color: #01fff0;
+}
+
+[title~="Offline"] {
+  color: #ec008c;
+}
