@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Contact() {
   return (
     <div className="contact">
@@ -10,9 +12,14 @@ function Contact() {
           <div className="w-[30%] cursor-pointer">
             <div className="numberWrap relative">
               <div className="roundPink absolute left-1/2 -top-10 -translate-x-1/2 z-[1]">
-                <img
+                <Image
                   src="https://dev.hyperaschain.com/img/Vector-contact.png"
-                  alt=""
+                  alt={"logo"}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto cursor-pointer"
+                  priority
                 />
               </div>
               <div className="numberItem text-center">
@@ -28,9 +35,14 @@ function Contact() {
           <div className="w-[30%] cursor-pointer">
             <div className="numberWrap relative">
               <div className="roundPink absolute left-1/2 -top-10 -translate-x-1/2 z-[1]">
-                <img
+                <Image
                   src="	https://dev.hyperaschain.com/img/Framecontact.png"
-                  alt=""
+                  alt={"logo"}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto cursor-pointer"
+                  priority
                 />
               </div>
               <div className="numberItem text-center">
@@ -46,9 +58,14 @@ function Contact() {
           <div className="w-[30%] cursor-pointer">
             <div className="numberWrap relative">
               <div className="roundPink absolute left-1/2 -top-10 -translate-x-1/2 z-[1]">
-                <img
+                <Image
                   src="https://dev.hyperaschain.com/img/Framecontact1.png"
-                  alt=""
+                  alt={"logo"}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  className="w-full h-auto cursor-pointer"
+                  priority
                 />
               </div>
               <div className="numberItem text-center">

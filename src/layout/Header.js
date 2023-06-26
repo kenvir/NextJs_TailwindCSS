@@ -22,11 +22,16 @@ function Header() {
             <FaPinterest className="cursor-pointer text-[22px]" />
             <FaTwitter className="cursor-pointer text-[22px]" />
           </div>
-          <span className="text-[16px] font-semibold cursor-pointer">FAQ</span>
+          <Link
+            href="/FAQ"
+            className="text-[16px] font-semibold cursor-pointer"
+          >
+            FAQ
+          </Link>
         </div>
       </div>
       <div className="flex items-center justify-between max-w-[1320px] w-full h-16 mx-auto">
-        <a href="/" className="">
+        <a href="/">
           <Image
             src="https://dev.hyperaschain.com/img/logo.png"
             alt={"logo"}
@@ -39,7 +44,7 @@ function Header() {
         </a>
         <nav className="flex items-center h-full">
           <ul className="flex items-center text-white h-full">
-            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1 z-[10]">
               <span className="flex items-center">
                 Technology <TiArrowSortedDown />
               </span>
@@ -78,7 +83,7 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1 z-[10]">
               <span className="flex items-center">
                 Ecosystem <TiArrowSortedDown />
               </span>
@@ -133,14 +138,14 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1 z-[10]">
               <span className="flex items-center">
                 External Environment <TiArrowSortedDown />
               </span>
               <ul className="absolute hidden group-hover:block top-32 bg-blue-100 text-black py-3 pl-3 pr-6 rounded-md font-semibold cursor-default z-10">
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="https://pindias.com/"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Pindias
@@ -148,7 +153,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="https://www.divega.com/"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Divega
@@ -156,7 +161,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="https://www.rapitalbank.com/"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     RapitalBank
@@ -164,7 +169,7 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1 z-[10]">
               <span className="flex items-center">
                 Resources <TiArrowSortedDown />
               </span>
@@ -179,7 +184,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/Blog"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Blog
@@ -203,7 +208,7 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1">
+            <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1 z-[10]">
               <span className="flex items-center">
                 Company <TiArrowSortedDown />
               </span>

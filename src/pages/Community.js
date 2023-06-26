@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Community() {
   return (
     <div className="community">
@@ -25,9 +27,14 @@ function Community() {
                     target="blank"
                     className="my-5 inline-block"
                   >
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/telegram.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </a>
                 </div>
@@ -37,9 +44,14 @@ function Community() {
                     target="blank"
                     className="my-5 inline-block"
                   >
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/linkedin.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </a>
                 </div>
@@ -49,9 +61,14 @@ function Community() {
                     target="blank"
                     className="my-5 inline-block"
                   >
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/twitter.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </a>
                 </div>
@@ -61,9 +78,14 @@ function Community() {
                     target="blank"
                     className="my-5 inline-block"
                   >
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/facebook.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </a>
                 </div>
@@ -73,9 +95,14 @@ function Community() {
                     target="blank"
                     className="my-5 inline-block"
                   >
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/github.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </a>
                 </div>
@@ -85,9 +112,14 @@ function Community() {
                     target="blank"
                     className="my-5 inline-block"
                   >
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/youtube.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </a>
                 </div>
@@ -113,9 +145,14 @@ function Community() {
               <tbody>
                 <tr className="relative">
                   <td>
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/event-img.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </td>
                   <td className="font-bold text-[16px]">
@@ -128,9 +165,14 @@ function Community() {
                 </tr>
                 <tr className="relative">
                   <td>
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/event-img.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </td>
                   <td className="font-bold text-[16px]">
@@ -143,9 +185,14 @@ function Community() {
                 </tr>
                 <tr className="relative">
                   <td>
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/event-img.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </td>
                   <td className="font-bold text-[16px]">
@@ -158,9 +205,14 @@ function Community() {
                 </tr>
                 <tr className="relative">
                   <td>
-                    <img
+                    <Image
                       src="https://dev.hyperaschain.com/img/event-img.png"
-                      alt=""
+                      alt={"logo"}
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      className="w-full h-auto cursor-pointer"
+                      priority
                     />
                   </td>
                   <td className="font-bold text-[16px]">

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 function Introduction() {
   return (
@@ -116,9 +117,10 @@ function Introduction() {
           <div className="text-center mt-lg-5 mt-12">
             <a
               href="https://dev.hyperaschain.com/overview"
-              className="readmore font-semibold"
+              className="flex items-center justify-center w-fit mx-auto readmore font-semibold"
             >
-              READ MORE
+              <p>READ MORE</p>
+              <MdOutlineArrowForwardIos />
             </a>
           </div>
         </div>

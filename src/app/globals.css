@@ -261,7 +261,7 @@ div[class*="circleBlur"] {
 
 .readmore {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 15px 40px;
   color: #ec008c;
   border-radius: 6px;
@@ -547,7 +547,7 @@ td:last-child a + a {
   position: relative;
 }
 
-.intro {
+.contact .intro {
   display: inline-block;
   background: linear-gradient(89.08deg, #ff0097 22.35%, #00d3ff 83.51%);
   -webkit-background-clip: text;
