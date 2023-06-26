@@ -226,7 +226,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/FAQ"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     FAQ
@@ -234,7 +234,7 @@ function Header() {
                 </li>
                 <li className="p-2">
                   <Link
-                    href="/"
+                    href="/Contact"
                     className="hover:border-b-2 hover:border-b-red-500 duration-75"
                   >
                     Contact
