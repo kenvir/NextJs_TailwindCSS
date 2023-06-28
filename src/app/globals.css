@@ -555,3 +555,11 @@ td:last-child a + a {
   font-size: 28px;
   font-weight: 300;
 }
+
+/* Blog */
+
+.blog {
+  padding-bottom: 40px;
+  background: #172932;
+  position: relative;
+}

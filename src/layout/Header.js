@@ -31,7 +31,7 @@ function Header() {
         </div>
       </div>
       <div className="flex items-center justify-between max-w-[1320px] w-full h-16 mx-auto">
-        <a href="/">
+        <Link href="/Home">
           <Image
             src="https://dev.hyperaschain.com/img/logo.png"
             alt={"logo"}
@@ -41,7 +41,7 @@ function Header() {
             className="w-full h-auto cursor-pointer"
             priority
           />
-        </a>
+        </Link>
         <nav className="flex items-center h-full">
           <ul className="flex items-center text-white h-full">
             <li className="flex items-center group p-3 font-bold text-[16px] h-full cursor-pointer mr-1 z-[10]">

@@ -246,7 +246,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col items-center w-[1320px] mx-auto mt-[50px] border-t-[1px]">
+        <div className="flex flex-col items-center max-w-[1320px] w-full mx-auto mt-[50px] border-t-[1px]">
           <span className="font-thin mt-2">
             Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.
           </span>
